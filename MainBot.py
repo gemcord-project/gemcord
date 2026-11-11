@@ -124,7 +124,7 @@ async def main():
     async with bot:
         asyncio.create_task(memory_janitor())
         await load_extensions()
-        await bot.start("MTU0NTgwMjk1Nzg4OTQ3MDU3NA.Gn6Tpc.x4hsh-GrCH-A2k0JJI6l3Ie6Cl8N-JNxS2DXMI")
+        await bot.start("TOKENHERE")
 
 @app_commands.allowed_contexts(
     guilds=True,
