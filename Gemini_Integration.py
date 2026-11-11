@@ -10,8 +10,8 @@ except ImportError:
     # Cappucino-AI-B1 is offline and should still work without the Gemini SDK installed.
     genai = None
 
-# Set GEMINI_API_KEY in your environment; rotate any previously exposed key.
-ballz = "AQ.Ab8RN6L2V6jczyd8m7WnLTs6ANQyV-6mjXiTFjE25b_zu7_H2g"
+
+ballz = "KEY-HERE"
 OWNER_ID = 1089127632471339038
 
 model = "gemini-3.5-flash-lite"
